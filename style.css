@@ -1,0 +1,243 @@
+body {
+    min-height: 100%;
+    margin: 0;
+}
+/* unvisited link */
+.header_stripe a:link {
+    text-decoration: none !important;
+    color: #616161;
+}
+/* visited link */
+.header_stripe a:visited {
+    color: #616161;
+}
+/* mouse over link */
+.header_stripe a:hover {
+    color: #3FC838;
+}
+/* selected link */
+.header_stripe a:active {
+    color: #616161;
+}
+ul {display: inline;} 
+ul li { 
+    list-style: none;
+    display: inline;
+    margin-left : 70px;
+    margin-top: 20px;
+    float:right;
+}
+.header_stripe {
+    height: 85px;
+}
+.mod {
+    position:absolute;
+    width:1000px;
+    left: 50%;       
+    margin-left: -500px; /*set to a negative number 1/2 of your width*/
+}
+.header {
+    margin-top: 100px;
+}
+.mod span{
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 45px;
+    color: #FFFFFF;	
+}
+.main_stripe {
+    height: 700px;
+    overflow: auto;
+    background-color: #4E4E4E;
+}
+#index_wallpaper {
+    width:100%;
+    height:100%;		
+    background-size:cover; 
+    background-position: center; 
+    background-repeat:no-repeat; 
+    background-image:url('img/keyboard.jpg');
+}
+#users_wallpaper {
+    width:100%;
+    height:100%;		
+    background-size:cover; 
+    background-position: center; 
+    background-repeat:no-repeat; 
+    background-image:url('img/users.jpg');
+}
+
+#log_wallpaper {
+    width:100%;
+    height:100%;		
+    background-size:cover; 
+    background-position: center; 
+    background-repeat:no-repeat; 
+    background-image:url('img/log.jpg');
+}
+#error_wallpaper {
+    width:100%;
+    height:100%;		
+    background-size:cover; 
+    background-position: center; 
+    background-repeat:no-repeat; 
+    background-image:url('img/error.jpg');
+}
+
+#download_wallpaper {
+    width:100%;
+    height:100%;		
+    background-size:cover; 
+    background-position: center; 
+    background-repeat:no-repeat; 
+    background-image:url('img/download.jpg');
+}
+
+.download_button {-moz-box-shadow:inset 0px 1px 0px 0px #fce2c1;
+                  background-color:#3FC838;
+                  -webkit-border-top-left-radius:3px;
+                  -moz-border-radius-topleft:3px;
+                  border-top-left-radius:3px;
+                  -webkit-border-top-right-radius:3px;
+                  -moz-border-radius-topright:3px;
+                  border-top-right-radius:3px;
+                  -webkit-border-bottom-right-radius:3px;
+                  -moz-border-radius-bottomright:3px;
+                  border-bottom-right-radius:3px;
+                  -webkit-border-bottom-left-radius:3px;
+                  -moz-border-radius-bottomleft:3px;
+                  border-bottom-left-radius:3px;
+                  display:inline-block;
+                  color:#ffffff;
+                  font-family: Tahoma, Geneva, sans-serif;
+                  font-size:15px;
+                  font-weight:bold;
+                  font-style:normal;
+                  height:60px;
+                  line-height:59px;
+                  width:140px;
+                  text-decoration:none;
+                  text-align:center;
+                  margin-top: 70px;
+}
+.download_button:hover {
+    background-color:#35A030;
+}
+.footer_stripe {
+    height: 365px;
+    overflow: hidden;
+    background-color: #1F1F1F;
+}
+
+.export_button {-moz-box-shadow:inset 0px 1px 0px 0px #fce2c1;
+                background-color:#3FC838;
+                -webkit-border-top-left-radius:3px;
+                -moz-border-radius-topleft:3px;
+                border-top-left-radius:3px;
+                -webkit-border-top-right-radius:3px;
+                -moz-border-radius-topright:3px;
+                border-top-right-radius:3px;
+                -webkit-border-bottom-right-radius:3px;
+                -moz-border-radius-bottomright:3px;
+                border-bottom-right-radius:3px;
+                -webkit-border-bottom-left-radius:3px;
+                -moz-border-radius-bottomleft:3px;
+                border-bottom-left-radius:3px;
+                display:inline-block;
+                color:#ffffff;
+                font-family: Tahoma, Geneva, sans-serif;
+                font-size:15px;
+                font-weight:bold;
+                font-style:normal;
+                height:60px;
+                line-height:59px;
+                width:140px;
+                text-decoration:none;
+                text-align:center;
+                margin-top: 20px;
+                margin-left: 300px;
+                float:right;
+}
+.export_button:hover {
+    background-color:#35A030;
+
+    left:800px;
+}
+
+.footer_inner_container {
+    width: 100%;
+    height: 300px;
+    float: left;
+    margin: 20px; 
+}	
+
+.footer_logo_text {
+    width: 250px;
+    height: 300px;
+    float: left;
+    margin: 20px; 
+}
+.footer_logo_text span{
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 15px;
+    color: #979797;	
+}
+.us_presentation {
+    width: 110px;
+    height: 160px;
+    float: left;
+    margin-top: 90px;
+    margin-left: 120px;	 	 
+}
+.us_presentation span  {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 20px;
+    color: #eaeaea;	
+}
+
+.our_pictures_sven {
+    width:100%;
+    height:100%;
+    background-size:cover; 
+    background-position: center; 
+    background-repeat:no-repeat; 
+    background-image:url('sven.png');	 
+}
+.our_pictures_artur {
+    width:100%;
+    height:100%;
+    background-size:cover; 
+    background-position: center; 
+    background-repeat:no-repeat; 
+    background-image:url('artur.jpg');	 
+}
+
+.our_pictures_nikos {
+    width:100%;
+    height:100%;
+    background-size:cover; 
+    background-position: center; 
+    background-repeat:no-repeat; 
+    background-image:url('img/nikos.jpg');	 
+}			 
+.menu_item{
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 15px;
+}
+
+.log_shader{
+    width: 500px;
+    height: 600px;
+    background-color: #000000;
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+    float:left;
+    margin-top:20px;
+    overflow: auto;
+}
+
+.log_shader span{
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size:15px;
+    font-weight:bold;
+    font-style:normal;
+}
